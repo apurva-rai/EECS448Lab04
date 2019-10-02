@@ -26,10 +26,42 @@ text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
 
 }
 
+form
+{
+
+font-size: 32;
+font-family:'Consolas';
+margin-left: auto;
+margin-right: auto;
+width:50%;
+text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}
+
 ol
 {
 
 font-size: 32;
+font-family:'Consolas';
+margin-left: auto;
+margin-right: auto;
+width:50%;
+text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}
+
+table
+{
+
+font-size: 16;
 font-family:'Consolas';
 margin-left: auto;
 margin-right: auto;
