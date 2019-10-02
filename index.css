@@ -1,0 +1,55 @@
+body
+{
+
+font-family:'Times New Roman';
+background-image: url(https://www.thisiscolossal.com/wp-content/uploads/2018/04/agif1opt.gif);
+background-size: cover;
+text-align: center;
+color: white;
+outline-color: black;
+
+}
+
+p
+{
+
+font-size: 32;
+font-family:'Consolas';
+margin-left: auto;
+margin-right: auto;
+width:50%;
+text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}
+
+ol
+{
+
+font-size: 32;
+font-family:'Consolas';
+margin-left: auto;
+margin-right: auto;
+width:50%;
+text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}
+
+h1
+{
+
+font-size: 48;
+text-shadow:
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}
