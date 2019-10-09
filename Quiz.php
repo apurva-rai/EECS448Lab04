@@ -1,3 +1,5 @@
+<link href ="index.css" rel="stylesheet" type="text/css"/>
+
 <?php
 
 error_reporting(E_ALL);
