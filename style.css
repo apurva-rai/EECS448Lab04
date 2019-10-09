@@ -1,0 +1,87 @@
+body
+{
+
+font-family:'Times New Roman';
+background-image: url(https://www.curtisdavid.com/wp-content/uploads/2014/12/full_city-1200x665.png);
+background-size: cover;
+text-align: center;
+color: white;
+outline-color: black;
+
+}
+
+div
+{
+
+font-size: 32;
+font-family:'Consolas';
+margin-left: auto;
+margin-right: auto;
+width:50%;
+text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+
+}
+
+form
+{
+
+font-size: 32;
+font-family:'Consolas';
+margin-left: auto;
+margin-right: auto;
+width:50%;
+text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}
+
+ol
+{
+
+font-size: 32;
+font-family:'Consolas';
+margin-left: auto;
+margin-right: auto;
+width:50%;
+text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}
+
+table
+{
+
+font-size: 16;
+font-family:'Consolas';
+margin-left: auto;
+margin-right: auto;
+width:50%;
+text-shadow: /*https://www.w3.org/Style/Examples/007/center.en.html*/
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}
+
+h1
+{
+
+font-size: 48;
+text-shadow:
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+
+}

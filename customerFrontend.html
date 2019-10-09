@@ -1,0 +1,45 @@
+<html>
+<head>
+  <link href ="style.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" type="text/javascript" src="formChecker.js"></script>
+  <title>Lab 4 Exercise 3</title>
+</head>
+<body>
+  <h3><div>Metal Store
+    </div></h3>
+
+    <form action="customerBackend.php" method="post" onsubmit="return isValid()">
+
+      <div class="identity"><br>
+        Username:
+        <input id='name' name="name" type="email"><br><br>
+        Password:
+        <input id='password' name="pass" type="password"><br><br>
+      </div>
+
+      <div class="identity"><br>
+        Metal Bat($28):
+        <input id='item1' name="i1" type="number" class="item" value="0"><br>
+        Metal Ball($6):
+        <input id='item2' name="i2" type="number" class="item" value="0"><br>
+        Metal Cap($40):
+        <input id='item3' name="i3" type="number" class="item" value="0"><br><br>
+      </div>
+
+      <div class="button"><br>
+        Shipping Options<br>
+        <input id="rad1" class="radio" type="radio" name="shipping" value="Free 7 Day" checked>Free 7 Day<br>
+        <input id="rad1" class="radio" type="radio" name="shipping" value="Three Day($5.00)">Three Day($5.00)<br>
+        <input id="rad1" class="radio" type="radio" name="shipping" value="Overnight($50.00)">Overnight($50.00)<br>
+      </div>
+
+      <div class="identity"><br>
+
+      <input id="reset" type="reset"><br><br>
+      <input type="submit" id="submit" value="Submit">
+
+      </div>
+
+    </form>
+</body>
+</html>
