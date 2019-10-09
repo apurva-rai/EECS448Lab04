@@ -1,61 +1,52 @@
 <html>
 <head>
-  <?php include 'Quiz.php';?>
   <link href ="index.css" rel="stylesheet" type="text/css">
   <title>Lab 4 Exercise 2</title>
 </head>
 <body><br>
+
+<form action="Quiz.php" method="post">
 <p>
-  Question 1: What is the capital of Zoupa Touscano?
-  <form>
-    <input type="radio" name="gender" checked>Spain<br>
-    <input type="radio" name="gender">Moscow<br>
-    <input type="radio" name="gender">Washington DC<br>
-    <input type="radio" name="gender">Not Spain<br>
-  </form>
+  Question 1: What is the capital of Zoupa Touscano?<br>
+    <input type="radio" name="ans1" value="Spain"checked>Spain<br>
+    <input type="radio" name="ans1" value="Moscow">Moscow<br>
+    <input type="radio" name="ans1" value="Washington DC">Washington DC<br>
+    <input type="radio" name="ans1" value="Not Spain">Not Spain<br>
 </p>
 
 <p>
-  Question 2: What happens in The Matrix(1999)?
-  <form>
-    <input type="radio" name="gender" checked>Neo<br>
-    <input type="radio" name="gender">Morpheus<br>
-    <input type="radio" name="gender">Neo hacks the system <font color="green">#Hackerman</font><br>
-    <input type="radio" name="gender">Neo dies<br>
-  </form>
+  Question 2: What happens in The Matrix(1999)?<br>
+    <input type="radio" name="ans2" value="Neo"checked>Neo<br>
+    <input type="radio" name="ans2" value="Morpheus">Morpheus<br>
+    <input type="radio" name="ans2" value="Neo hacks the system #Hackerman">Neo hacks the system #Hackerman<br>
+    <input type="radio" name="ans2" value="Neo dies">Neo dies<br>
 </p>
 
 <p>
-  Question 3: When did the exchange happen?
-  <form>
-    <input type="radio" name="gender" checked>March 21,1999<br>
-    <input type="radio" name="gender">March 21, 2014<br>
-    <input type="radio" name="gender">December 25, 4000 BC<br>
-    <input type="radio" name="gender">Yesterday<br>
-  </form>
+  Question 3: When did the exchange happen?<br>
+    <input type="radio" name="ans3" value="March 21, 1999" checked>March 21,1999<br>
+    <input type="radio" name="ans3" value="March 21, 2014">March 21, 2014<br>
+    <input type="radio" name="ans3" value="December 25, 4000 BC">December 25, 4000 BC<br>
+    <input type="radio" name="ans3" value="Yesterday">Yesterday<br>
 </p>
 
 <p>
-  Question 4: OK Computer?
-  <form>
-    <input type="radio" name="gender" checked>In Rainbows<br>
-    <input type="radio" name="gender">Kid A<br>
-    <input type="radio" name="gender">The Bends<br>
-    <input type="radio" name="gender">Abbey Road<br>
-  </form>
+  Question 4: OK Computer?<br>
+    <input type="radio" name="ans4" value="In Rainbows" checked>In Rainbows<br>
+    <input type="radio" name="ans4" value="Kid A">Kid A<br>
+    <input type="radio" name="ans4" value="The Bends">The Bends<br>
+    <input type="radio" name="ans4" value="Abbey Road">Abbey Road<br>
 </p>
 
 <p>
-  Question 5: What was the absolute magnitude of the gamma ray burst from the Soft Gamma Repeater Magnetar SGR 1806-20 that was felt on Earth on December 24, 2004?
-  <form>
-    <input type="radio" name="gender" checked>+3<br>
-    <input type="radio" name="gender">-37<br>
-    <input type="radio" name="gender">+15<br>
-    <input type="radio" name="gender">-29<br>
-  </form>
+  Question 5: What was the absolute magnitude of the gamma ray burst from the Soft Gamma Repeater Magnetar SGR 1806-20 that was felt on Earth on December 24, 2004?<br>
+    <input type="radio" name="ans5" value="+3" checked>+3<br>
+    <input type="radio" name="ans5" value="-37">-37<br>
+    <input type="radio" name="ans5" value="+15">+15<br>
+    <input type="radio" name="ans5" value="-29">-29<br>
 </p>
-
-<button value="Grade" onClick="authenticator()">Submit</button>
+<input type="submit" value="Grade">
+</form>
 
 </body>
 </html>
