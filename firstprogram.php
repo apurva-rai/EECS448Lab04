@@ -14,10 +14,19 @@ echo "7 + 13 = <b>" . sum(7, 13) . "</b><br>";
 echo "2 + 4 = <b>" . sum(2, 4) . "</b>";*/
 
 echo"<table>";
+  echo "<tr>";
+  echo "<td />";
   for($rep1 = 1; $rep1 < 101; $rep1++)
   {
 
-      echo"<tr>";
+    echo "<td><b>" . $rep1 . "</b></td>";
+
+  }
+  echo "</tr>";
+  for($rep1 = 1; $rep1 < 101; $rep1++)
+  {
+
+      echo"<tr><td><b>" . $rep1 . "</b></td>";
 
     for($rep2 = 1; $rep2 < 101; $rep2++)
     {

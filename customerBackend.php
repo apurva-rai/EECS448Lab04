@@ -1,3 +1,5 @@
+<link href ="style.css" rel="stylesheet" type="text/css" />
+
 <?php
 
 error_reporting(E_ALL);
@@ -63,7 +65,7 @@ return null;
 
 }
 
-  echo "<br><br><b>Your username is " . $_POST['name'] . " and your password is " . $_POST['pass'] . "</b><table style='width:100%' bgcolor='Aqua' frame='box'>";
+  echo "<br><br><b><center><h1>Welcome! Your username is " . $_POST['name'] . " and your password is " . $_POST['pass'] . "<br>Here is your receipt</h1></center></b><table style='width:100%' bgcolor='Aqua' frame='box'>";
 
   makeTable(5);
 
